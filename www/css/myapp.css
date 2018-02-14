@@ -1,0 +1,17 @@
+#creditcard-image{
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.hide{
+  display: none;
+}
+
+.invalid{
+  color: red;
+}
+
+.valid{
+  color: green;
+}
