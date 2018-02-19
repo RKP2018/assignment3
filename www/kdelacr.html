@@ -1,125 +1,73 @@
-<!DOCTYPE html>
+Exiting<!DOCTYPE html>
 <html>
-<title>Krishel's Page</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
-<style>
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Montserrat", sans-serif
-  }
-  #main {
-    margin-left: 120px
-  }
 
-  /* Remove margins from "page content" on small screens */
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>354 Student Listing Hybrid App</title>
 
-  @media only screen and (max-width: 600px) {
-    #main {
-      margin-left: 0
-    }
-  }
+    <link rel="stylesheet" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/myapp.css" />
 
+    <script src="js/jquery.min.js"></script>
+    <script src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
 
-
-  body {
-      background-color: #white;
-      font-family: Helvetica, sans-serif;
-  }
-
-  #about{
-
-    color:black;
-  }
-
-</style>
-
-<body class="w3-white">
-
-
-
-
-  <!-- Page Content -->
-  <div class="w3-padding-large" id="main">
-    <!-- Header/Home -->
-    <header class="w3-container w3-padding-32 w3-center w3-white" id="home">
-      <h1 class="w3-jumbo" style = "color:green"><span class="w3-hide-small"></span> Krishel Dela Cruz</h1>
-      <img src="profilepic.jpg" alt="profile" class="w3-image" width="992" height="1108">
-    </header>
 <body>
-    <!-- About Section -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" >
-      <h2 class="w3-text-green">ABOUT ME</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <h6 id = "about">CURRENT:</h6><p> Senior at Illinois State University</p>
-      <h6 id = "about">MAJOR:</h6><p> Information Systems - Web Application Development</p>
-      <h6 id = "about">WORK:</h6><p>  Student Manager at the Braiden Box Office || Server/Togo Specialist at Olive Garden </p>
-      <h6 id = "about">BIRTHDAY: </h6><p> September 10, 1995 </p>
-<hr>
-      <p>I'm currently a Senior at Illinois State University. I am an Information Systems major with a sequence of Web Application Development. My passion has always been web design. With the help of my professors and peers, I am on my way to a successful
-        path towards my career.
-      </p>
+
+    <!-- Start of first page -->
+    <div data-role="page" id="undergrads">
+
+      <div data-role="header" style="overflow:hidden;">
+      <h1 style>Krishel Dela Cruz - Undergraduate</h1>
+          <a href="#" data-icon="gear" class="ui-btn-right">Options</a>
+          <div data-role="navbar">
+              <ul>
+                  <li><a href="index.html#undergrads">Undergraduates</a></li>
+                  <li><a href="index.html#grads" class="ui-btn-active">Graduates and Instructors</a></li>
+              </ul>
+          </div><!-- /navbar -->
+      </div><!-- /header -->
+
+    	<div role="main" class="ui-content">
+        <center><h1 style= "color: green">Krishel. </h1></center>
+          <center><img src="profilepic.jpg" alt="profile" class="w3-image" width="300" height="200"></center>
+        <h2 style = "color: green">ABOUT ME</h2>
+      <br>
+        <h4>CURRENT:</h4><p> Senior at Illinois State University</p>
+        <h4>MAJOR:</h4><p> Information Systems - Web Application Development</p>
+        <h4>WORK:</h4><p>  Student Manager at the Braiden Box Office || Server/Togo Specialist at Olive Garden </p>
+        <h4>BIRTHDAY: </h4><p> September 10, 1995 </p>
+      <hr>
+        <p>I'm currently a Senior at Illinois State University. I am an Information Systems major with a sequence of Web Application Development. My passion has always been web design. With the help of my professors and peers, I am on my way to a successful
+          path towards my career.
+        </p>
+        <h2 style = "color: green">HOBBIES</h2>
+
+      <ul>
+      <li>Running </li>
+      <li>Reading </li>
+      <li>Napping </li>
+      <li>Cooking/Baking </li>
+      <li>Hanging out with friends </li>
 
 
-</div>
-<div class="w3-content w3-justify w3-text-grey w3-padding-64" >
-  <h2 class="w3-text-green">HOBBIES</h2>
-    <hr style="width:200px" class="w3-opacity">
-<ul>
-<li>Running </li>
-<li>Reading </li>
-<li>Napping </li>
-<li>Cooking/Baking </li>
-<li>Hanging out with friends </li>
+      </ul>
 
 
-</ul>
-</div>
+
+    	</div><!-- /content -->
+
+      <div data-role="footer">
+    		<h4>Kdelacr@ilstu.edu</h4>
+    	</div><!-- /footer -->
+    </div><!-- /
 
 
-<div class="w3-content w3-justify w3-text-grey w3-padding-64" >
-  <h2 class="w3-text-green">FUN FACT</h2>
-    <hr style="width:200px" class="w3-opacity">
-
-<p>I was born in the Phillippines. I moved to the US when I was only 8 years old.
-Unfortunatley, I haven't been back since. Hopefully I will be able to get the opportunity
-to travel there one day, in hopes to explore more about my culture! </p>
 
 
-</div>
-
-</body>
-
-      <!-- Footer -->
-      <!-- Contact Section -->
-      <footer>
-      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-        <h2 class="w3-text-green">Contact Me</h2>
-        <hr style="width:200px" class="w3-opacity">
-
-        <div class="w3-section">
-          <p><i class="fa fa-envelope fa-fw w3-text-green w3-xxlarge w3-margin-right"> </i> Email: <a href="kdelacr@ilstu.edu" target="_top">Kdelacr@ilstu.edu</p></a>
-        </div><br>
-        <p>Lets get in touch. Send me a message!</p>
-
-        <!-- End Contact Section -->
-      </div>
-
-        <!-- End footer -->
-      </footer>
-
-      <!-- END PAGE CONTENT -->
-    </div>
-
+    <script type="text/javascript" src="js/myapp.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
 </body>
 
 </html>
